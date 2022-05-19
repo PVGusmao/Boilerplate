@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  align-items: center;
+  background-color: darkgreen;
+  display: flex;
+  height: 100px;
+  justify-content: space-evenly;
+}
+
+.navigation-bar {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+  width: 100%;
+}
+
+.navigation-bar a {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 50px;
+  text-decoration: none;
+}
+
+.navigation-bar a:hover {
+  font-size: 20px;
+  transition: 100ms;
+}
+
+.name {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+}
