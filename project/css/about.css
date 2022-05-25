@@ -4,6 +4,19 @@
   padding: 0;
 }
 
+html, body {
+  height: 89.5%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
 .header {
   align-items: center;
   background-color: darkgreen;
@@ -42,4 +55,52 @@
   justify-content: center;
   padding: 15px;
   width: 100%;
+}
+
+.main {
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.wrapper {
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.wrapper h2 {
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.wrapper p {
+  font-size: 20px;
+  text-align: justify;
+  width: 400px;
+}
+
+.wrapper ul {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer {
+  align-items: center;
+  background-color: darkgreen;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.footer p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
